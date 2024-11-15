@@ -1,17 +1,20 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<body>
-
-<h1> configuration: 24005728</h1>
-<ol>
-<li> Device name DESKTOP-MOHHBTU</li>
-<li> Processor 13th Gen Intel(R) Core(TM) i5-13350 1.30 GHz</li>
-<li> Installed RAM 16.0 GB (15.7 GB usable)</li>
-<li> Device ID 15EEA3B2-7EF5-4DEC-9030-577382C3C005</li>
-<li> Product ID 00342-42708-45292-AAOEM</li>
-<li> System type 64-bit operating system, x64-based processor</li>
-<li> Pen and Touch No pen or touch input is available for this display</li>
-</ol>
+<html>
+<title>
+LapConfig 
+</title>
+<body bgcolor="#FFE5B4">
+<h1 align="Center">Device configirations (SUSHMITHA GEMBUNATHAN,24001544)</h1>
+<ul type="star">
+<li>Device name:DESKTOP-MOHHBTU </li>
+<li>Processor:13th Gen Intel(R) Core(TM) i5-1335U   1.30 GHz</li>
+<li>Installed RAM:16.0 GB (15.7 GB usable)</li>
+<li>Device ID:15EEA3B2-7EF5-4DEC-903D-577382C3C005</li>
+<li>Product ID:00342-42709-00696-AAOEM</li>
+<li>System type:64-bit operating system, x64-based processor</li>
+<li>Pen and touch:No pen or touch input is available for this display</li>
+</ul>
 </body>
 </html>
 """
